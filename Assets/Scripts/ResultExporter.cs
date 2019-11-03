@@ -10,7 +10,7 @@ public class ResultExporter : MonoBehaviour
     private string path;
     private string writeTxt;
     private List<string> writeTxtList;
-    private string fileName = "result.txt";
+    private string fileName = "result.csv";
 
     private int QuestionNumber;  //設問番号、何問目かを示す通し番号
     private int[] PictureNumberArray;      //ランダムな数字(PictureNumber)が被りなく順に並んでいる配列、indexはQuestionNumber-1を示す
@@ -43,11 +43,11 @@ public class ResultExporter : MonoBehaviour
         {
             if(CorrectAnswerList[i] == AnswerList[i])
             {
-                OXlist.Add("〇");
+                OXlist.Add("O");
             }
             else
             {
-                OXlist.Add("✕");
+                OXlist.Add("X");
             }
         }
 
