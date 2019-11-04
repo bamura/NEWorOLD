@@ -464,13 +464,33 @@ MonoBehaviour:
   ResultExporterObj: {fileID: 1007195699}
   cameraZpos: 0
   OldMaterialsList:
-  - {fileID: 21300000, guid: 55138a877eeaecb42a1c4fc14ef6e81a, type: 3}
-  - {fileID: 21300000, guid: 64bc33b9d81b8e14aa96a0aab42eb702, type: 3}
-  - {fileID: 21300000, guid: 4f074c77bbc176c43968466b076dd3e3, type: 3}
+  - {fileID: 21300000, guid: 04103c95c1d28d347bb83ddf28f7e4c5, type: 3}
+  - {fileID: 21300000, guid: c87f68d34863d504eb978ae1631620dd, type: 3}
+  - {fileID: 21300000, guid: ac4afc98707d44b429838a4f8fd3e16a, type: 3}
+  - {fileID: 21300000, guid: c44c0511749f0774dacbf915bfe0591c, type: 3}
+  - {fileID: 21300000, guid: 763fad11a8ac97940b4bac06bacc2332, type: 3}
+  - {fileID: 21300000, guid: 3fd4730d56347f242b3842e495fc7f8c, type: 3}
+  - {fileID: 21300000, guid: de85e3056d4e5fe409a8120a6fce7102, type: 3}
+  - {fileID: 21300000, guid: d2ff8b5d6be718443ba1fc14bc927407, type: 3}
+  - {fileID: 21300000, guid: d138748c7bab76b4191be36d01ac94ff, type: 3}
+  - {fileID: 21300000, guid: d2bf202be215ca7448e442b836c29d18, type: 3}
+  - {fileID: 21300000, guid: 6544eea6eeee7834e884ebcad5c0773e, type: 3}
+  - {fileID: 21300000, guid: a38ca6c1be230074aa668bb96c36a198, type: 3}
+  - {fileID: 21300000, guid: 80dca3f76c5f41a4081c34308d2bc40e, type: 3}
   NewMaterialsList:
-  - {fileID: 21300000, guid: e8ec7f4992746c044a901fb9bf3b5421, type: 3}
-  - {fileID: 21300000, guid: 48eb804e91b094345b10a657f1049b69, type: 3}
-  - {fileID: 21300000, guid: 450ee0c0787034f49b50052fd54d986e, type: 3}
+  - {fileID: 21300000, guid: 846dd277b86287f46a48b7e205e34d96, type: 3}
+  - {fileID: 21300000, guid: f424d50e6b1cac745ad54d3b2c43d6d1, type: 3}
+  - {fileID: 21300000, guid: ab5da74b39b6d6248ab8f36968a9e8a7, type: 3}
+  - {fileID: 21300000, guid: 2395729b23f7c1942a6c34c4a3c409ef, type: 3}
+  - {fileID: 21300000, guid: 747b639601e193c469bb60a57616f818, type: 3}
+  - {fileID: 21300000, guid: 93c92339313969944a0f5a613c22ebcf, type: 3}
+  - {fileID: 21300000, guid: d70d26d0f44b5f74c8da0f837840777e, type: 3}
+  - {fileID: 21300000, guid: ee379498fa6b4d548a0cab9c2c2f292c, type: 3}
+  - {fileID: 21300000, guid: ce2e5872d08525448ab04b1101c79f3e, type: 3}
+  - {fileID: 21300000, guid: e05ba34cd93e3dc46827cd6a73b1154a, type: 3}
+  - {fileID: 21300000, guid: 1f618124afe0734448d14756a8b64d89, type: 3}
+  - {fileID: 21300000, guid: 6a450d508f94a4549a78d731514b84dd, type: 3}
+  - {fileID: 21300000, guid: 947ab62ceb2d75a419d9900dcb79854a, type: 3}
   QuestionPictureArray: []
 --- !u!4 &992970374
 Transform:
@@ -668,7 +688,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -100, y: 30}
+  m_AnchoredPosition: {x: -100, y: 20}
   m_SizeDelta: {x: 200, y: 60}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1321614035
@@ -834,7 +854,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: OldButton
+  m_Text: 'Original Materials
+
+    (Old Material)'
 --- !u!222 &1322199322
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -913,7 +935,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NewButton
+  m_Text: 'Restoration Materials
+
+    (New Material)'
 --- !u!222 &1445954247
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1090,7 +1114,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 100, y: 30}
+  m_AnchoredPosition: {x: 100, y: 20}
   m_SizeDelta: {x: 200, y: 60}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1817262734
